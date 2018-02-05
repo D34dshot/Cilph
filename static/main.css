@@ -29,7 +29,7 @@ div#page-container{
 /* END OF MISC */
 
 header{
-	padding:10px 30px;
+	padding:5px 30px 5px;
 	color:white;
 	background-color:black;
 	overflow: auto;
@@ -50,7 +50,7 @@ div.heading-div h1{
 	color: #072A7B;
 	text-shadow: 1px 1px 1px white;
 	font-family: 'Marcellus SC', serif;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 div.heading-div h2, h3{
@@ -63,7 +63,7 @@ div.heading-div h2, h3{
 nav.nav-wrapper{
 	float: right;
 	max-width: 700px;
-	margin: 40px auto;
+	margin-top: 50px;
 	display: block;
 }
 
