@@ -5,13 +5,11 @@
 	list-style: none;
 }
 
-<<<<<<< HEAD
 a{
 	text-decoration: none;
 }
 
-=======
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
+
 header a{
 	color: white;
 	text-decoration: none;
@@ -23,11 +21,7 @@ header a:hover{
 }
 
 body{
-<<<<<<< HEAD
 	background-color:#555;
-=======
-	background-color:#1b1b1b;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
 }
 
 div#page-container{
@@ -89,36 +83,22 @@ section#main-section-wrapper{
 	background-size: cover;
 	width: auto;
 	padding: 30px;
-<<<<<<< HEAD
 	min-height: 300px;
 }
 
-div.welcome-wrapper{
-	margin: 70px auto;
-=======
-}
 
 div.welcome-wrapper{
-	min-height: 300px;
-	color: url('https://intrapreneurshipinstitute.files.wordpress.com/2014/02/ideas_7822450_s.jpg?w=800&h=600&crop=1');
-
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
+	margin: 80px auto;
 }
 
 p.greeting{
 	font-family: 'Marcellus SC', serif;
 	text-shadow: 2px 2px 10px black;
-<<<<<<< HEAD
 	font-size: 70px;
 	color: white;
 	text-align: center;
-	/*line-height: 300px;*/
-=======
 	font-size: 60px;
-	color: white;
 	text-align: center;
-	line-height: 300px;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
 }
 
 section#main-section-wrapper h2{
@@ -131,36 +111,27 @@ section#main-section-wrapper h2{
 /* END OF MAIN SECTION */
 
 section#bio{
-<<<<<<< HEAD
-	background-color: #222;
-	width: auto;
-	min-height: 200px;
-	padding-top: 30px;
-	padding-bottom: 20px;
+	background: #222;
 }
 
+
 div#vision-container{
+	min-height: 250px;
+	padding: 10px;
 	max-width: 700px;
 	margin: auto;
-=======
-	background-color: #333;
-	width: auto;
-	min-height: 200px;
-	padding-top: 20px;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
+}
+
+h2.bio-heading{
+	margin-top: 10px;
 }
 
 h2.bio-heading, p.bio-text{
 	text-align:center;
 	color:white;
-<<<<<<< HEAD
 	font-size:40px;
-	margin: 0px 20px 0px 20px;
 	font-family: 'Marcellus SC', serif;
-=======
-	font-size:30px;
-	margin: 0px 20px 0px 20px;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
+	margin: 30px auto;
 }
 
 input.more-button{
@@ -171,8 +142,7 @@ input.more-button{
 	border-style:solid;
 	border-color:white;
 	border-width:2px;
-	margin: 20px auto;
-<<<<<<< HEAD
+	margin: 20px auto 0;
 	font-size: 15px;
 }
 
@@ -180,15 +150,12 @@ input.more-button:hover{
 	background: #777;
 	text-shadow: 1px 1px 5px black;
 	box-shadow: 2px 2px 10px white;
-=======
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
 }
 /* END OF BIO SECTION */
 
 section#victory-background{
 	color:white;
 	font-size:20px;
-<<<<<<< HEAD
 	background:url(images/techworld.jpg) center left;
 	width: auto;
 	margin: auto;
@@ -231,11 +198,6 @@ input.more-two:hover{
 	background: #344c6e;
 	text-shadow: 1px 1px 5px black;
 	box-shadow: 2px 2px 10px white;
-=======
-	background:url(images/victory.jpg) center center;
-	width: auto;
-	margin: auto;
-	overflow: auto;
 }
 
 div.portfolio-text{
@@ -245,18 +207,6 @@ div.portfolio-text{
 	max-width: 500px;
 }
 
-input.more-two{
-	display: block;
-	background-color: #FDE1B2;
-	border-style:solid;
-	border-color:black;
-	border-width:2px;
-	width: 100px;
-	height:50px;
-	margin:10px auto;
-
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
-}
 /* END OF PORTFOLIO SECTION*/
 
 
@@ -280,14 +230,11 @@ footer ul li{
 display: inline-block;
 width: 160px;
 border: 0px;
-<<<<<<< HEAD
 font-size: 25px;
 }
 
 .fa-github, .fa-linkedin{
 	font-size: 45px;
-=======
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
 }
 
 footer a{
@@ -358,17 +305,11 @@ padding: 10px;
 	/* END OF HEADER */
 
 	section#main-section-wrapper{
-<<<<<<< HEAD
-		/*background:#A03C81;*/
-=======
-		background:#A03C81;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
 		width: auto;
 		overflow: hidden;
 	}
 
 	div.welcome-wrapper{
-<<<<<<< HEAD
 		max-width: 200px;
 		margin: 50px auto;
 	}
@@ -378,36 +319,26 @@ padding: 10px;
 		text-align: center;
 		margin: 0px auto;
 		line-height: normal;
-=======
 		min-height: auto;
 	}
 
-	h2.welcome {
-		color: white;
-		font-size: 40px;
-		text-align: center;
-		margin: 0px auto;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
-	}
+
 	/* END OF SECTION MAIN */
 
 	section#bio{
 		background-color: #1b1b1b;
 		width: auto;
-<<<<<<< HEAD
 		font-size: 25px;
-=======
-		font-size: 15px;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
+		/*font-size: 15px;*/
+	}
+
+	div#vision-container{
+		padding: 30px;
 	}
 
 	h2.bio-heading, p.bio-text{
 		text-align:center;
-<<<<<<< HEAD
 		font-size:30px;
-=======
-		font-size:20px;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
 	}
 
 	input.more-button{
@@ -424,7 +355,6 @@ padding: 10px;
 
 	section#victory-background{
 		font-size:20px;
-<<<<<<< HEAD
 		background: #003D6A;
 		width: auto;
 		margin: 0;
@@ -440,13 +370,6 @@ padding: 10px;
 		font-size: 50px;
 	}
 
-	input.more-two{
-		background-color:#01153C;
-=======
-		background: #E9B281;
-		width: auto;
-
-	}
 
 	div.portfolio-text{
 		color:black;
@@ -456,50 +379,40 @@ padding: 10px;
 	}
 
 	input.more-two{
-		background-color:#FDE1B2;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
-		border-style:solid;
-		border-color:black;
-		border-width:2px;
-		width:95%;
+		/*background-color:#FDE1B2;*/
+		color:white;
+		width:100%;
 		height:50px;
+		border-style:solid;
+		border-color:white;
+		border-width:2px;
 		margin: 20px auto;
 	}
 	/* END OF PORTFOLIO */
 
 
-<<<<<<< HEAD
-/*footer section{
-	letter-spacing: 2px;
-	font-size: 50px;
-}*/
 
 footer{
 	padding: 10px;
-=======
+}
+
 footer section{
 	letter-spacing: 2px;
 	font-size: 50px;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
 }
 
 footer ul li{
 	display: block;
 	text-align: center;
 	margin: auto;
-<<<<<<< HEAD
 	font-size: 25px;
 	width: 100%;
 	/*border: .2px solid white;*/
 }
 
 .fa-github, .fa-linkedin{
-	font-size: 65px;
-=======
-	font-size: 15px;
+	font-size: 60px;
 	width: 100%;
-	border: .2px solid white;
->>>>>>> bd5a6e36e4606402e1a496900f2acf9410def039
 }
 
 
