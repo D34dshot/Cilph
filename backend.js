@@ -3,6 +3,7 @@ var ejs = require('ejs');
 var bodyParser = require('body-parser');
 var urlencoded = bodyParser.urlencoded({extended: false});
 
+
 var app = express();
 app.set('template-engine', 'ejs');
 app.use('/', express.static('static'));
@@ -14,7 +15,7 @@ app.get('/', function(req, res){
 
 app.get('/contact', function(req, res){
   console.log(`Request has been made by ${req.url}`);
-  res.render('contact.ejs');
+  res.render('contact.ejs', {info: req.query});
 });
 
 app.get('/portfolio', function(req, res){
@@ -30,6 +31,11 @@ app.get('/experience', function(req, res){
 app.get('/about', function(req, res){
   console.log(`Request has been made by ${req.url}`);
   res.render('about.ejs');
+})
+
+app.post('/contact', urlencoded, function(req, res){
+  console.log(req.body);
+  res.render('experience', {info: req.query})
 })
 
 app.listen(3000);

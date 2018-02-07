@@ -87,12 +87,6 @@ form label{
   font-size: 20px;
 }
 
-div#names{
-  /*overflow: auto;*/
-  /*border: 2px solid black;*/
-  /*width: 600px;*/
-}
-
 div#names div{
   display:inline-block;
   overflow: auto;

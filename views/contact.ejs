@@ -44,22 +44,22 @@
 
             <div id="names">
               <div id="name1" class="names">
-                <input type="text" name="name" value="">
+                <input type="text" name="name" value="<%= info.name %>">
                 <p>First</p>
               </div>
 
               <div id="name2" class="names">
-                <input type="text" name="last" value="">
+                <input type="text" name="last" value="<%= info.last %>">
                 <p id="last">Last</p>
               </div>
             </div><br><br>
 
             <label for="email">Email</label><br>
-            <input type="text" name="email" value=""><br><br>
+            <input type="text" name="email" value="<%= info.email %>"><br><br>
 
             <p>Message</p><br>
 
-            <textarea name="message"></textarea><br><br>
+            <textarea name="message" value="<%= info.message %>"></textarea><br><br>
 
             <input type="SUBMIT" id="submit" value="Contact">
 
